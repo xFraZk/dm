@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+    <title>RLic. Multimedia FDA | Estudiantes</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Lic. Multimedia FDA | Estudiantes</h1>
+        <div id="review-form">
+            <label for="rating">¿Cómo calificarías este grupo?</label>
+            <select id="rating">
+                <option value="1">1 ⭐</option>
+                <option value="2">2 ⭐⭐</option>
+                <option value="3">3 ⭐⭐⭐</option>
+                <option value="4">4 ⭐⭐⭐⭐</option>
+                <option value="5">5 ⭐⭐⭐⭐⭐</option>
+            </select>
+            <textarea id="comment" placeholder="Escribe tu reseña..."></textarea>
+            <button onclick="addReview()">Enviar Reseña</button>
+        </div>
+        <div id="reviews"></div>
+        <div id="summary"></div>
+    </div>
+</body>
+</html>
